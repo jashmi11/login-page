@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap Example</title>
+    <link href="css/style.css" rel="stylesheet">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="login-background">
+        <div class="login-container order-sm-2">
+            <h1 class="login-head">Make your Future brigthter</h1>
+            <form id="myform">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <div class="mb-3">
+                                <label for="fname">First Name</label>
+                                <input type="text" id="fname" class="form-control" />
+                                <p id="fnameErrMsg" class="error-message"></p>
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="mb-3">
+                                <label for="lname">Last Name</label>
+                                <input type="text" id="lname" class="form-control" />
+                                <p id="lnameErrMsg" class="error-message"></p>
+                            </div>
+                        </div>
+                        <div class="col-md-7">
+                            <div class="mb-3">
+                                <label for="email">Email</label>
+                                <input type="text" id="email" class="form-control" />
+                                <p id="emailErrMsg" class="error-message"></p>
+                            </div>
+                        </div>
+                        <div class="col-md-5">
+                            <div class="mb-3">
+                                <label for="phno">Phone Number</label>
+                                <input type="text" id="phno" class="form-control" />
+                                <p id="phnoErrMsg" class="error-message"></p>
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="mb-3">
+                                <label for="year">Current Year</label>
+                                <select id="year" class="form-control">
+                                    <option value="value1">First year</option>
+                                    <option value="value2">Second year</option>
+                                    <option value="value3">Third year</option>
+                                    <option value="value4">Fourth year</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="mb-3">
+                                <h1 class="gender-field-heading">Gender</h1>
+                                <input type="radio" name="gender" id="genderMale" value="Male" \ />
+                                <label for="genderMale">Male</label>
+                                <input type="radio" name="gender" id="genderFemale" value="Female" class="ml-2" />
+                                <label for="genderFemale">Female</label>
+                            </div>
+                        </div>
+                        <div class="col-md-12">
+                            <button type="submit" class="btn btn-primary">Submit</button>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
